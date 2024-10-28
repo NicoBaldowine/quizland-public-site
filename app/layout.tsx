@@ -1,7 +1,13 @@
+import type { Metadata } from 'next'
 import { Outfit } from 'next/font/google'
 import './globals.css'
 
 const outfit = Outfit({ subsets: ['latin'] })
+
+export const metadata: Metadata = {
+  title: 'Quizland',
+  description: 'Create and share quizzes with AI',
+}
 
 export default function RootLayout({
   children,
@@ -10,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${outfit.className} bg-[#101827]`}>{children}</body>
+      <body className={outfit.className}>{children}</body>
     </html>
   )
 }

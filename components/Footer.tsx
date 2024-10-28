@@ -1,13 +1,22 @@
 // components/Footer.tsx
+import Link from 'next/link';
+
 export default function Footer() {
-    return (
-      <footer className="py-8 text-center text-sm text-gray-500">
-        <div className="space-x-6">
-          <a href="#terms" className="hover:underline">Terms of use</a>
-          <a href="#privacy" className="hover:underline">Privacy Policy</a>
+  return (
+    <footer className="bg-[#101827] text-white py-8">
+      <div className="max-w-[1090px] mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+        <div className="mb-4 md:mb-0">
+          <p className="text-sm text-gray-400">&copy; 2024 Quizland. All rights reserved.</p>
         </div>
-        <p className="mt-4">&copy; 2024 Quizland.app</p>
-      </footer>
-    );
-  }
-  
+        <div className="flex space-x-6">
+          <Link href="/terms-and-conditions" className="font-outfit font-semibold text-base hover:text-gray-300">
+            Terms of Use
+          </Link>
+          <Link href="/privacy-policy" className="font-outfit font-semibold text-base hover:text-gray-300">
+            Privacy Policy
+          </Link>
+        </div>
+      </div>
+    </footer>
+  );
+}

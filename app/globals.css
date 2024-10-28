@@ -8,6 +8,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: #101827;
+  color: white;
 }
 
 /* Add any other global styles here */
@@ -17,22 +19,29 @@ body {
 
 /* Define color variables for light and dark themes */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
   }
 }
 
 /* Apply the global styles */
 body {
   font-family: 'Outfit', sans-serif;
-  color: var(--foreground);
-  background: var(--background);
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
 }
 
 @layer utilities {

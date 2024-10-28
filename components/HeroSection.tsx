@@ -26,13 +26,23 @@ export default function HeroSection() {
         powering your creativity, expand your knowledge and become<br className="hidden sm:inline" />
         smarter on any topic you choose.
       </p>
-      <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 mt-8 relative z-10">
+      <div className="flex flex-row space-x-4 mt-8 relative z-10">
         <a href="#" className="bg-[#262D3A] text-white px-4 py-3 rounded-lg flex items-center justify-center border border-[#676C76] transition-all duration-300 hover:bg-[#3A4351] hover:border-[#8A90A0]">
-          <img src="/app-store-icon.svg" alt="App Store" className="w-6 h-6" />
+          <Image 
+            src="/app-store-icon.svg" 
+            alt="App Store" 
+            width={24} 
+            height={24} 
+          />
           <span className="ml-2">App Store</span>
         </a>
         <a href="#" className="bg-[#262D3A] text-white px-4 py-3 rounded-lg flex items-center justify-center border border-[#676C76] transition-all duration-300 hover:bg-[#3A4351] hover:border-[#8A90A0]">
-          <img src="/google-play-icon.svg" alt="Google Play" className="w-6 h-6" />
+          <Image 
+            src="/google-play-icon.svg" 
+            alt="Google Play" 
+            width={24} 
+            height={24} 
+          />
           <span className="ml-2">Google Play</span>
         </a>
       </div>
