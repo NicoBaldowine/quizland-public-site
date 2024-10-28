@@ -43,7 +43,7 @@ export default function Header() {
             </a>
           </div>
           <button 
-            className="bg-[#262D3A] text-white px-4 py-3 rounded-lg flex items-center border border-[#676C76] transition-all duration-300 hover:bg-[#3A4351] hover:border-[#8A90A0]"
+            className="bg-[#182236] text-white px-4 py-3 rounded-lg flex items-center border border-[#748098] transition-all duration-300 hover:bg-[#2E394E] hover:border-[#8A90A0]"
             onClick={openModal}
           >
             <span className="font-semibold">Get Quizland Free</span>
@@ -76,7 +76,7 @@ export default function Header() {
               </a>
             </div>
             <button 
-              className="bg-[#262D3A] text-white px-4 py-3 rounded-lg flex items-center border border-[#676C76] transition-all duration-300 hover:bg-[#3A4351] hover:border-[#8A90A0]"
+              className="bg-[#182236] text-white px-4 py-3 rounded-lg flex items-center border border-[#748098] transition-all duration-300 hover:bg-[#2E394E] hover:border-[#8A90A0]"
               onClick={() => {
                 openModal();
                 toggleMobileMenu();

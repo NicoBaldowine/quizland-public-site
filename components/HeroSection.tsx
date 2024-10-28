@@ -27,7 +27,7 @@ export default function HeroSection() {
         smarter on any topic you choose.
       </p>
       <div className="flex flex-row space-x-4 mt-8 relative z-10">
-        <a href="#" className="bg-[#262D3A] text-white px-4 py-3 rounded-lg flex items-center justify-center border border-[#676C76] transition-all duration-300 hover:bg-[#3A4351] hover:border-[#8A90A0]">
+        <a href="#" className="bg-[#182236] text-white px-4 py-3 rounded-lg flex items-center justify-center border border-[#748098] transition-all duration-300 hover:bg-[#2E394E] hover:border-[#8A90A0]">
           <Image 
             src="/app-store-icon.svg" 
             alt="App Store" 
@@ -36,7 +36,7 @@ export default function HeroSection() {
           />
           <span className="ml-2">App Store</span>
         </a>
-        <a href="#" className="bg-[#262D3A] text-white px-4 py-3 rounded-lg flex items-center justify-center border border-[#676C76] transition-all duration-300 hover:bg-[#3A4351] hover:border-[#8A90A0]">
+        <a href="#" className="bg-[#182236] text-white px-4 py-3 rounded-lg flex items-center justify-center border border-[#748098] transition-all duration-300 hover:bg-[#2E394E] hover:border-[#8A90A0]">
           <Image 
             src="/google-play-icon.svg" 
             alt="Google Play" 

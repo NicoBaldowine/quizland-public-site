@@ -49,12 +49,12 @@ export default function HomePage() {
       
       <section className="py-8 md:py-16 px-4">
         <div className="max-w-[1090px] mx-auto text-center">
-          <h2 className="font-outfit font-semibold text-4xl md:text-[80px] leading-[93%] tracking-[-1%] mb-8 gradient-text">
+          <h2 className="font-outfit font-semibold text-4xl md:text-[80px] leading-[1.1] md:leading-[1.1] tracking-[-0.01em] mb-8 gradient-text">
             Join the Fun<br />
             Create Your First Quiz Now
           </h2>
           <div className="flex flex-row justify-center space-x-4">
-            <a href="#" className="bg-[#262D3A] text-white px-4 py-3 rounded-lg flex items-center justify-center border border-[#676C76] transition-all duration-300 hover:bg-[#3A4351] hover:border-[#8A90A0]">
+            <a href="#" className="bg-[#182236] text-white px-4 py-3 rounded-lg flex items-center justify-center border border-[#748098] transition-all duration-300 hover:bg-[#2E394E] hover:border-[#8A90A0]">
               <Image 
                 src="/app-store-icon.svg" 
                 alt="App Store" 
@@ -63,7 +63,7 @@ export default function HomePage() {
               />
               <span className="ml-2">App Store</span>
             </a>
-            <a href="#" className="bg-[#262D3A] text-white px-4 py-3 rounded-lg flex items-center justify-center border border-[#676C76] transition-all duration-300 hover:bg-[#3A4351] hover:border-[#8A90A0]">
+            <a href="#" className="bg-[#182236] text-white px-4 py-3 rounded-lg flex items-center justify-center border border-[#748098] transition-all duration-300 hover:bg-[#2E394E] hover:border-[#8A90A0]">
               <Image 
                 src="/google-play-icon.svg" 
                 alt="Google Play" 
