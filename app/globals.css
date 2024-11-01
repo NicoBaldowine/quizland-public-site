@@ -46,7 +46,7 @@ body {
 
 @layer utilities {
   .gradient-text {
-    @apply bg-clip-text text-transparent bg-gradient-to-b from-white to-[#BBB8B8];
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-[#FF9A62] via-[#CE87FB] to-[#94DBFB];
   }
 }
 

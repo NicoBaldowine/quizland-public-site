@@ -4,7 +4,10 @@ import './globals.css'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
-const outfit = Outfit({ subsets: ['latin'] })
+const outfit = Outfit({ 
+  subsets: ['latin'],
+  variable: '--font-outfit',
+})
 
 export const metadata: Metadata = {
   title: 'Quizland - Create AI-Powered Quizzes',
@@ -22,13 +25,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-        <link rel="apple-touch-icon" href="/apple-icon.png" />
-      </head>
-      <body className={outfit.className}>
+    <html lang="en" className={`${outfit.variable}`}>
+      <body className={`font-outfit`}>
         <div className="flex flex-col min-h-screen">
           <Header />
           <main className="flex-grow">
