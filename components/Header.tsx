@@ -15,7 +15,7 @@ export default function Header() {
     const toggleMobileMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
 
     return (
-      <header className="flex justify-between items-center p-6 bg-[#101827]">
+      <header className="flex justify-between items-center px-8 py-6 bg-[#101827]">
         <div className="flex items-center">
           <Link href="/" className="cursor-pointer">
             <Image 
@@ -27,14 +27,14 @@ export default function Header() {
             />
           </Link>
         </div>
-        <nav className="hidden md:flex items-center space-x-8">
+        <nav className="hidden md:flex items-center space-x-12">
           <Link href="/about-us" className="font-outfit font-semibold text-base text-white hover:text-gray-300 transition-colors duration-200">
             About us
           </Link>
           <Link href="/contact-us" className="font-outfit font-semibold text-base text-white hover:text-gray-300 transition-colors duration-200">
             Contact us
           </Link>
-          <div className="flex space-x-4">
+          <div className="flex space-x-4 ml-12">
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity duration-200">
               <Image src="/icons/instagram-icon.svg" alt="Instagram" width={24} height={24} />
             </a>
@@ -43,7 +43,7 @@ export default function Header() {
             </a>
           </div>
           <button 
-            className="bg-[#182236] text-white px-4 py-3 rounded-lg flex items-center border border-[#748098] transition-all duration-300 hover:bg-[#2E394E] hover:border-[#8A90A0]"
+            className="bg-[#182236] text-white px-4 py-3 rounded-lg flex items-center border border-[#748098] transition-all duration-300 hover:bg-[#2E394E] hover:border-[#8A90A0] ml-12"
             onClick={openModal}
           >
             <span className="font-semibold">Get Quizland Free</span>

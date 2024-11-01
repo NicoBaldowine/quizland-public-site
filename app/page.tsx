@@ -5,6 +5,7 @@ import HeroSection from "../components/HeroSection";
 import FeatureBox from "../components/FeatureBox";
 import { FadeInSection } from "../components/FadeInSection";
 import Image from 'next/image';
+import CustomerStories from "../components/CustomerStories";
 
 export default function HomePage() {
   return (
@@ -46,6 +47,8 @@ export default function HomePage() {
           </FadeInSection>
         </div>
       </section>
+      
+      <CustomerStories />
       
       <section className="py-8 md:py-16 px-4">
         <div className="max-w-[1090px] mx-auto text-center">
