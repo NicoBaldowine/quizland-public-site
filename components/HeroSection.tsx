@@ -22,7 +22,7 @@ export default function HeroSection() {
         </div>
       </div>
 
-      <p className="font-outfit font-light text-white/60 mt-4 md:mt-8 text-sm sm:text-base md:text-[16px] max-w-[800px] text-center leading-[1.7rem]">
+      <p className="font-outfit font-normal md:font-light text-white/60 mt-4 md:mt-8 text-sm sm:text-base md:text-[16px] max-w-[800px] text-center leading-[1.25rem] md:leading-[1.7rem]">
         Create quizzes on any topic you can imagine—no limits! With AI<br className="hidden sm:inline" />
         powering your creativity, expand your knowledge and become<br className="hidden sm:inline" />
         smarter on any topic you choose.
