@@ -15,7 +15,7 @@ export default function Header() {
     const toggleMobileMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
 
     return (
-      <header className="flex justify-between items-center px-8 py-6 bg-[#101827]">
+      <header className="flex justify-between items-center px-4 md:px-8 py-6 bg-[#101827]">
         <div className="flex items-center">
           <Link href="/" className="cursor-pointer">
             <Image 

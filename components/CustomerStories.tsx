@@ -15,7 +15,7 @@ function TestimonialCard({ quote, author, emoji }: TestimonialCardProps) {
       <p className="font-outfit text-white/80 text-lg leading-[1.7] mb-6 flex-grow">
         &ldquo;{quote}&rdquo;
       </p>
-      <p className="font-outfit font-semibold text-white text-lg">
+      <p className="font-outfit font-semibold text-gradient text-lg">
         {author}
       </p>
     </div>
