@@ -36,16 +36,7 @@ export default function HeroSection() {
             width={24} 
             height={24} 
           />
-          <span className="ml-2">App Store</span>
-        </a>
-        <a href="#" className="bg-[#182236] text-white px-4 py-3 rounded-lg flex items-center justify-center border border-[#748098] transition-all duration-300 hover:bg-[#2E394E] hover:border-[#8A90A0]">
-          <Image 
-            src="/google-play-icon.svg" 
-            alt="Google Play" 
-            width={24} 
-            height={24} 
-          />
-          <span className="ml-2">Google Play</span>
+          <span className="ml-2">Get it on App Store</span>
         </a>
       </div>
     </section>

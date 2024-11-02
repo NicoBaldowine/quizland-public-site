@@ -18,7 +18,7 @@ export default function HomePage() {
               title="Instant Quiz Generation on Any Topic with AI"
               description="Just type your topic, and let AI do the rest. From history and pop culture to complex sciences, generate quizzes instantly with a single click."
               bgColor="bg-[#FEDE67]"
-              videoSource="/revolutexample.mp4"
+              imageSource="/box1.png"
             />
           </FadeInSection>
           <FadeInSection delay={200}>
@@ -26,7 +26,7 @@ export default function HomePage() {
               title="Level Up with Custom Knowledge Challenges"
               description="Challenge yourself with personalized difficulty levels. Start as a beginner and climb the ranks as your knowledge grows, from basic to expert."
               bgColor="bg-[#FF9A62]"
-              videoSource="/revolutexample.mp4"
+              imageSource="/box2.png"
             />
           </FadeInSection>
           <FadeInSection delay={400}>
@@ -34,7 +34,7 @@ export default function HomePage() {
               title="Smart Suggestions for Your Next Quiz"
               description="Get topic suggestions from trending subjects, your interests, or popular categories. Discover new and exciting areas to challenge your knowledge."
               bgColor="bg-[#C9A0FF]"
-              videoSource="/revolutexample.mp4"
+              imageSource="/box3.png"
             />
           </FadeInSection>
           <FadeInSection delay={600}>
@@ -42,7 +42,7 @@ export default function HomePage() {
               title="Instant Results to Help You Improve"
               description="Receive immediate feedback after each quiz. See what you got right, where you went wrong, and try again to improve your score!"
               bgColor="bg-[#94DBFB]"
-              videoSource="/revolutexample.mp4"
+              imageSource="/box4.png"
             />
           </FadeInSection>
         </div>
@@ -64,8 +64,9 @@ export default function HomePage() {
                 width={24} 
                 height={24} 
               />
-              <span className="ml-2">App Store</span>
+              <span className="ml-2">Get it on App Store</span>
             </a>
+            {/* Commented for future Android release
             <a href="#" className="bg-[#182236] text-white px-4 py-3 rounded-lg flex items-center justify-center border border-[#748098] transition-all duration-300 hover:bg-[#2E394E] hover:border-[#8A90A0]">
               <Image 
                 src="/google-play-icon.svg" 
@@ -75,6 +76,7 @@ export default function HomePage() {
               />
               <span className="ml-2">Google Play</span>
             </a>
+            */}
           </div>
         </div>
       </section>
