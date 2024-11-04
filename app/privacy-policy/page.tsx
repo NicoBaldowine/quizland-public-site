@@ -9,7 +9,7 @@ export default function PrivacyPolicy() {
           <p className="text-gray-400 mb-8">Last Updated: November 4, 2023</p>
 
           <p className="mb-8 text-gray-300">
-            At Quizland App ("we," "us," or "our"), we are committed to protecting your privacy. This Privacy Policy outlines how we collect, use, and safeguard your personal information when you use our app ("Service"). By using the Service, you agree to the collection and use of information in accordance with this policy.
+            At Quizland App (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;), we are committed to protecting your privacy. This Privacy Policy outlines how we collect, use, and safeguard your personal information when you use our app (&quot;Service&quot;). By using the Service, you agree to the collection and use of information in accordance with this policy.
           </p>
 
           <section className="mb-8">
