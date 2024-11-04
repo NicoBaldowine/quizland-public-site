@@ -10,7 +10,7 @@ export default function Footer() {
         </div>
         <div className="flex space-x-12">
           <Link href="/terms-and-conditions" className="font-outfit font-semibold text-base hover:text-gray-300 transition-colors duration-200">
-            Terms of Use
+            Terms and Conditions
           </Link>
           <Link href="/privacy-policy" className="font-outfit font-semibold text-base hover:text-gray-300 transition-colors duration-200">
             Privacy Policy

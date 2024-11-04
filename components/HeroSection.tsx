@@ -2,7 +2,11 @@
 import RotatingTopics from './RotatingTopics';
 import Image from 'next/image';
 
-export default function HeroSection() {
+interface HeroSectionProps {
+  openModal: () => void;
+}
+
+export default function HeroSection({ openModal }: HeroSectionProps) {
   return (
     <section className="w-full px-4 pt-8 md:pt-16 pb-16 flex flex-col items-center relative">
       <div className="flex flex-col items-center space-y-0">
@@ -29,7 +33,10 @@ export default function HeroSection() {
       </p>
 
       <div className="flex flex-row space-x-4 mt-8">
-        <a href="#" className="bg-[#182236] text-white px-4 py-3 rounded-lg flex items-center justify-center border border-[#748098] transition-all duration-300 hover:bg-[#2E394E] hover:border-[#8A90A0]">
+        <a 
+          href="https://apps.apple.com/us/app/quizland-app/id6737491930"
+          className="md:hidden bg-[#182236] text-white px-4 py-3 rounded-lg flex items-center justify-center border border-[#748098] transition-all duration-300 hover:bg-[#2E394E] hover:border-[#8A90A0]"
+        >
           <Image 
             src="/app-store-icon.svg" 
             alt="App Store" 
@@ -38,6 +45,18 @@ export default function HeroSection() {
           />
           <span className="ml-2">Get it on App Store</span>
         </a>
+        <button 
+          onClick={openModal}
+          className="hidden md:flex bg-[#182236] text-white px-4 py-3 rounded-lg items-center justify-center border border-[#748098] transition-all duration-300 hover:bg-[#2E394E] hover:border-[#8A90A0]"
+        >
+          <Image 
+            src="/app-store-icon.svg" 
+            alt="App Store" 
+            width={24} 
+            height={24} 
+          />
+          <span className="ml-2">Get it on App Store</span>
+        </button>
       </div>
     </section>
   );

@@ -1,16 +1,22 @@
 // app/page.tsx
 'use client';
 
+import { useState } from 'react';
 import HeroSection from "../components/HeroSection";
 import FeatureBox from "../components/FeatureBox";
 import { FadeInSection } from "../components/FadeInSection";
 import Image from 'next/image';
 import CustomerStories from "../components/CustomerStories";
+import Modal from "../components/Modal";
 
 export default function HomePage() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const openModal = () => setIsModalOpen(true);
+  const closeModal = () => setIsModalOpen(false);
+
   return (
     <div className="bg-[#101827] min-h-screen">
-      <HeroSection />
+      <HeroSection openModal={openModal} />
       <section className="py-8 md:py-16 px-4">
         <div className="max-w-[1090px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-y-6 md:gap-y-10 gap-x-[40px]">
           <FadeInSection>
@@ -57,7 +63,10 @@ export default function HomePage() {
             Create Your First Quiz Now
           </h2>
           <div className="flex flex-row justify-center space-x-4">
-            <a href="#" className="bg-[#182236] text-white px-4 py-3 rounded-lg flex items-center justify-center border border-[#748098] transition-all duration-300 hover:bg-[#2E394E] hover:border-[#8A90A0]">
+            <a 
+              href="https://apps.apple.com/us/app/quizland-app/id6737491930"
+              className="md:hidden bg-[#182236] text-white px-4 py-3 rounded-lg flex items-center justify-center border border-[#748098] transition-all duration-300 hover:bg-[#2E394E] hover:border-[#8A90A0]"
+            >
               <Image 
                 src="/app-store-icon.svg" 
                 alt="App Store" 
@@ -66,20 +75,22 @@ export default function HomePage() {
               />
               <span className="ml-2">Get it on App Store</span>
             </a>
-            {/* Commented for future Android release
-            <a href="#" className="bg-[#182236] text-white px-4 py-3 rounded-lg flex items-center justify-center border border-[#748098] transition-all duration-300 hover:bg-[#2E394E] hover:border-[#8A90A0]">
+            <button 
+              onClick={openModal}
+              className="hidden md:flex bg-[#182236] text-white px-4 py-3 rounded-lg items-center justify-center border border-[#748098] transition-all duration-300 hover:bg-[#2E394E] hover:border-[#8A90A0]"
+            >
               <Image 
-                src="/google-play-icon.svg" 
-                alt="Google Play" 
+                src="/app-store-icon.svg" 
+                alt="App Store" 
                 width={24} 
                 height={24} 
               />
-              <span className="ml-2">Google Play</span>
-            </a>
-            */}
+              <span className="ml-2">Get it on App Store</span>
+            </button>
           </div>
         </div>
       </section>
+      <Modal isOpen={isModalOpen} onClose={closeModal} />
     </div>
   );
 }

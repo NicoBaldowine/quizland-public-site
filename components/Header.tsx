@@ -75,15 +75,15 @@ export default function Header() {
                 <Image src="/icons/discord-icon.svg" alt="Discord" width={24} height={24} />
               </a>
             </div>
-            <button 
+            <a 
+              href="https://apps.apple.com/us/app/quizland-app/id6737491930"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-[#182236] text-white px-4 py-3 rounded-lg flex items-center border border-[#748098] transition-all duration-300 hover:bg-[#2E394E] hover:border-[#8A90A0]"
-              onClick={() => {
-                openModal();
-                toggleMobileMenu();
-              }}
+              onClick={toggleMobileMenu}
             >
               <span className="font-semibold">Get Quizland Free</span>
-            </button>
+            </a>
           </div>
         )}
         <Modal isOpen={isModalOpen} onClose={closeModal} />
