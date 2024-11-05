@@ -9,7 +9,7 @@ export default function TermsAndConditions() {
           <p className="text-gray-400 mb-8">Last Updated: November 4, 2023</p>
           
           <p className="mb-8 text-gray-300">
-            Welcome to Quizland App ("we", "us", or "our"). By creating an account or using our app ("Service"), you ("user" or "you") agree to be bound by these Terms and Conditions ("Terms"). Please read them carefully.
+            Welcome to Quizland App (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;). By creating an account or using our app (&quot;Service&quot;), you (&quot;user&quot; or &quot;you&quot;) agree to be bound by these Terms and Conditions (&quot;Terms&quot;). Please read them carefully.
           </p>
 
           <section className="mb-8">
@@ -56,7 +56,7 @@ export default function TermsAndConditions() {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">6. Third-Party Services</h2>
             <div className="text-gray-300 space-y-4">
-              <p>6.1 The Service integrates third-party services such as Firebase by Google and OpenAI's API.</p>
+              <p>6.1 The Service integrates third-party services such as Firebase by Google and OpenAI&apos;s API.</p>
               <p>6.2 Your use of these services is subject to their respective terms and privacy policies.</p>
               <p>6.3 We are not responsible for any third-party content or services.</p>
             </div>
@@ -79,7 +79,7 @@ export default function TermsAndConditions() {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">8. Disclaimers</h2>
             <div className="text-gray-300 space-y-4">
-              <p>8.1 The Service is provided "as is" without warranties of any kind.</p>
+              <p>8.1 The Service is provided &quot;as is&quot; without warranties of any kind.</p>
               <p>8.2 We do not guarantee the accuracy or appropriateness of AI-generated content.</p>
               <p>8.3 We are not liable for any damages arising from your use of the Service.</p>
             </div>
@@ -103,7 +103,7 @@ export default function TermsAndConditions() {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">11. Modifications to Terms</h2>
             <p className="text-gray-300">
-              We may update these Terms from time to time. We will notify you of any changes by updating the "Last Updated" date at the top of these Terms and, where feasible, providing notice via email.
+              We may update these Terms from time to time. We will notify you of any changes by updating the &quot;Last Updated&quot; date at the top of these Terms and, where feasible, providing notice via email.
             </p>
           </section>
 
@@ -124,7 +124,6 @@ export default function TermsAndConditions() {
               >
                 https://quizland.app/contact-us
               </a>
-              .
             </p>
           </section>
 
