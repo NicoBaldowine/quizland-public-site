@@ -21,14 +21,13 @@ export default function PrivacyPolicy() {
               </div>
               <div>
                 <h3 className="font-semibold mb-2">1.2 Usage Data</h3>
-                <p>We may collect information on how the Service is accessed and used ("Usage Data"). This may include information such as your device's Internet Protocol address (IP address), browser type, browser version, the pages of our Service that you visit, and other diagnostic data.</p>
+                <p>We may collect information on how the Service is accessed and used (&quot;Usage Data&quot;). This may include information such as your device&apos;s Internet Protocol address (IP address), browser type, browser version, the pages of our Service that you visit, and other diagnostic data.</p>
               </div>
             </div>
           </section>
 
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">2. How We Use Your Information</h2>
-            <p className="text-gray-300 mb-4">We use the collected data for various purposes:</p>
             <div className="text-gray-300 space-y-4">
               <p>2.1 Account Management: To create and manage your user account.</p>
               <p>2.2 Service Improvement: To monitor usage and improve the Service.</p>
@@ -38,59 +37,21 @@ export default function PrivacyPolicy() {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">3. Data Security</h2>
-            <p className="mb-4">
-              Quizland takes appropriate measures to protect your personal information from unauthorized access, alteration, disclosure, or destruction.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-semibold mb-4">4. Your Rights</h2>
-            <p className="mb-4">
-              You have the right to access, correct, or delete your personal information. You can manage your data through your account settings or by contacting our support team.
-            </p>
+            <h2 className="text-2xl font-semibold mb-4">3. Data Storage and Security</h2>
+            <div className="text-gray-300 space-y-4">
+              <p>3.1 Data Storage: Your data is stored securely using Firebase by Google. Firebase provides robust security measures to protect your information.</p>
+              <p>3.2 Security Measures: We implement industry-standard security protocols, including encryption and secure servers, to protect your personal information.</p>
+              <p>3.3 No Method of Transmission is 100% Secure: While we strive to use commercially acceptable means to protect your data, we cannot guarantee its absolute security.</p>
+            </div>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">5. Third-Party Services</h2>
-            <p className="mb-4">
-              We may use third-party services to improve our Service and provide a better user experience. These services may collect information used to identify you.
-            </p>
-          </section>
-
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">6. Analytics</h2>
-            <p className="mb-4">
-              We may use analytics tools to analyze how users use the Service. These tools may collect information sent by your browser or mobile device, including the pages you visit and other interaction data.
-            </p>
-          </section>
-
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">7. Advertising</h2>
-            <p className="mb-4">
-              We may use third-party advertising companies to serve ads when you visit the Service. These companies may use information about your visits to the Service and other websites to provide advertisements about goods and services of interest to you.
-            </p>
-          </section>
-
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">8. Cookies</h2>
-            <p className="mb-4">
-              We use cookies to enhance your experience on the Service. Cookies are small files that a site or its service provider transfers to your computer's hard drive through your Web browser (if you allow) that enables the site's or service provider's systems to recognize your browser and capture and remember certain information.
-            </p>
-          </section>
-
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">9. Data Sharing</h2>
-            <p className="mb-4">
-              We may share your personal information with third parties in certain circumstances, such as when required by law or to protect our rights.
-            </p>
-          </section>
-
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">10. Data Retention</h2>
-            <p className="mb-4">
-              We will retain your personal information for as long as necessary to provide the Service and for other legitimate business purposes.
-            </p>
+            <h2 className="text-2xl font-semibold mb-4">4. Third-Party Services</h2>
+            <div className="text-gray-300 space-y-4">
+              <p>4.1 Firebase by Google: We use Firebase for data storage and authentication. Your data is processed by Firebase in accordance with their privacy policies.</p>
+              <p>4.2 OpenAI API: We use OpenAI&apos;s API to generate quizzes. While we do not share your personal information directly with OpenAI, the content you generate may be processed by their services.</p>
+              <p>4.3 No Sale of Personal Data: We do not sell or rent your personal information to third parties.</p>
+            </div>
           </section>
 
           <section className="mb-8">
