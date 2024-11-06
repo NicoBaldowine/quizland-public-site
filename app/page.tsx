@@ -8,6 +8,7 @@ import { FadeInSection } from "../components/FadeInSection";
 import Image from 'next/image';
 import CustomerStories from "../components/CustomerStories";
 import Modal from "../components/Modal";
+import FAQ from '../components/FAQ';
 
 export default function HomePage() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -55,6 +56,7 @@ export default function HomePage() {
       </section>
       
       <CustomerStories />
+      <FAQ />
       
       <section className="py-8 md:py-16 px-4">
         <div className="max-w-[1090px] mx-auto text-center">

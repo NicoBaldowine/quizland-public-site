@@ -55,6 +55,59 @@ export default function PrivacyPolicy() {
           </section>
 
           <section className="mb-8">
+            <h2 className="text-2xl font-semibold mb-4">5. Cookies and Tracking Technologies</h2>
+            <div className="text-gray-300 space-y-4">
+              <p>5.1 Cookies: We do not use cookies or similar tracking technologies to track your activity on our Service.</p>
+              <p>5.2 Analytical Data: Any analytical data collected is used solely for improving the Service and is not linked to individual users.</p>
+            </div>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-2xl font-semibold mb-4">6. Your Rights</h2>
+            <div className="text-gray-300 space-y-4">
+              <p>6.1 Access and Update: You can access and update your personal information through your account settings within the app.</p>
+              <p>6.2 Account Deletion: You may delete your account at any time through the account settings. Upon deletion, all personal data associated with your account will be removed from our servers.</p>
+              <p>6.3 Opt-Out: If you no longer wish to receive communications from us, you can opt out by following the unsubscribe link in our emails or contacting us directly.</p>
+            </div>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-2xl font-semibold mb-4">7. Children&apos;s Privacy</h2>
+            <div className="text-gray-300 space-y-4">
+              <p>7.1 Minimum Age: The Service is not intended for children under the age of 14.</p>
+              <p>7.2 Parental Consent: We do not knowingly collect personal information from anyone under the age of 14. If you are a parent or guardian and become aware that your child has provided us with personal information, please contact us.</p>
+              <p>7.3 Removal of Data: If we discover that we have collected personal information from a child under 14 without verification of parental consent, we will take steps to remove that information from our servers.</p>
+            </div>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-2xl font-semibold mb-4">8. User-Generated Content</h2>
+            <div className="text-gray-300 space-y-4">
+              <p>8.1 Inappropriate Content: Users are prohibited from creating quizzes with violent, sexually inappropriate, or offensive content.</p>
+              <p>8.2 Monitoring: We reserve the right to monitor and review user-generated content to ensure compliance with our Terms and Conditions.</p>
+              <p>8.3 Account Termination: Accounts creating inappropriate content may be suspended or terminated without prior notice.</p>
+            </div>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-2xl font-semibold mb-4">9. Changes to This Privacy Policy</h2>
+            <div className="text-gray-300 space-y-4">
+              <p>9.1 Updates: We may update our Privacy Policy from time to time. Changes will be effective when they are posted on this page.</p>
+              <p>9.2 Notification: We will notify you of any significant changes by email and update the &quot;Last Updated&quot; date at the top of this Privacy Policy.</p>
+              <p>9.3 Continued Use: Your continued use of the Service after any changes to the Privacy Policy constitutes your acceptance of the new terms.</p>
+            </div>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-2xl font-semibold mb-4">10. International Users</h2>
+            <div className="text-gray-300 space-y-4">
+              <p>10.1 Global Access: While the Service is accessible globally, it is operated from Colorado.</p>
+              <p>10.2 Data Transfer: If you are accessing the Service from outside Colorado, please be aware that your information may be transferred to, stored, and processed in Colorado.</p>
+              <p>10.3 Compliance with Local Laws: You are responsible for compliance with local laws if you access the Service from outside Colorado.</p>
+            </div>
+          </section>
+
+          <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">11. Contact Us</h2>
             <p className="text-gray-300">
               If you have any questions or concerns about this Privacy Policy, please contact us:<br />
