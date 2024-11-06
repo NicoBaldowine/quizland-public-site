@@ -11,11 +11,11 @@ interface FAQItem {
 const faqData: FAQItem[] = [
   {
     question: "How does Quizland work?",
-    answer: "Quizland is a unique quiz app powered by advanced AI technology. It allows you to create personalized quizzes on any topic you desire. Simply input your topic of interest, and our AI generates a customized quiz for you to enjoy. Whether you're testing your knowledge or learning something new, Quizland makes it easy and fun."
+    answer: "Quizland is a unique quiz app powered by advanced AI technology. It allows you to create personalized quizzes on any topic you desire. Simply input your topic of interest, and our AI generates a customized quiz for you to enjoy. Whether you&apos;re testing your knowledge or learning something new, Quizland makes it easy and fun."
   },
   {
     question: "How many quizzes can I create with Quizland?",
-    answer: "With the free version of Quizland, you can create up to six quizzes. We are currently working on a premium version that will allow you to create an unlimited number of quizzes, giving you endless opportunities to explore and learn about any subject you're passionate about."
+    answer: "With the free version of Quizland, you can create up to six quizzes. We are currently working on a premium version that will allow you to create an unlimited number of quizzes, giving you endless opportunities to explore and learn about any subject you&apos;re passionate about."
   },
   {
     question: "What are the levels in Quizland, and how do they work?",
@@ -34,7 +34,7 @@ const faqData: FAQItem[] = [
           <li>Dragon - Command your subject</li>
           <li>Ultimate Dragon - Achieve mastery</li>
         </ul>
-        <p>As you complete quizzes and earn points, you'll advance through these levels, unlocking new challenges and achievements along the way.</p>
+        <p>As you complete quizzes and earn points, you&apos;ll advance through these levels, unlocking new challenges and achievements along the way.</p>
       </div>
     )
   },
