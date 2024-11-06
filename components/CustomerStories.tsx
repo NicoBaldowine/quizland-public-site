@@ -8,7 +8,7 @@ interface TestimonialCardProps {
 
 function TestimonialCard({ quote, author, emoji }: TestimonialCardProps) {
   return (
-    <div className="bg-[#182236] p-8 rounded-2xl flex flex-col h-full">
+    <div className="bg-[#182236] p-8 rounded-2xl flex flex-col h-full transition-all duration-300 hover:bg-[#1E2A42] hover:scale-[1.02] cursor-pointer">
       <div className="text-3xl mb-6">
         {emoji}
       </div>
