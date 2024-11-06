@@ -6,20 +6,24 @@ import Image from 'next/image';
 interface FeatureBoxProps {
   title: string;
   description: string;
-  bgColor: string;
+  bgColor: 'bg-[#FEDE67]' | 'bg-[#FF9A62]' | 'bg-[#C9A0FF]' | 'bg-[#94DBFB]';
   imageSource: string;
 }
 
+type GradientMap = {
+  [key in FeatureBoxProps['bgColor']]: string;
+};
+
 export default function FeatureBox({ title, description, bgColor, imageSource }: FeatureBoxProps) {
   // Define gradient backgrounds based on the base color
-  const gradientMap = {
+  const gradientMap: GradientMap = {
     'bg-[#FEDE67]': 'bg-gradient-to-br from-[#FEDE67] to-[#FFB930]',
     'bg-[#FF9A62]': 'bg-gradient-to-br from-[#FF9A62] to-[#FF7A3F]',
     'bg-[#C9A0FF]': 'bg-gradient-to-br from-[#C9A0FF] to-[#A571FF]',
     'bg-[#94DBFB]': 'bg-gradient-to-br from-[#94DBFB] to-[#5AC8FF]',
   };
 
-  const gradientClass = gradientMap[bgColor] || bgColor;
+  const gradientClass = gradientMap[bgColor];
 
   return (
     <div 
