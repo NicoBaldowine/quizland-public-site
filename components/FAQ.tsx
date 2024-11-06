@@ -45,7 +45,7 @@ const faqData: FAQItem[] = [
         <p>Quizland is perfect for both entertainment and learning. Here are some ways you can use the app:</p>
         <ul className="list-disc pl-6 space-y-2">
           <li>Entertainment on the Go: Enjoy fun quizzes while waiting for appointments or commuting.</li>
-          <li>Learning New Topics: Explore new subjects by creating quizzes on any topic you're curious about.</li>
+          <li>Learning New Topics: Explore new subjects by creating quizzes on any topic you&apos;re curious about.</li>
           <li>Social Interaction: Challenge friends and family by sharing quizzes and comparing scores.</li>
           <li>Educational Tool: Use it as a study aid to prepare for exams or interviews by generating practice quizzes.</li>
           <li>Brain Training: Keep your mind sharp with daily quizzes that challenge your memory and critical thinking skills.</li>
